@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/councit/react-adoption/issues"
   },
-  "homepage": "https://github.com/councit/react-adoption#readme"
+  "homepage": "https://github.com/councit/react-adoption#readme",
+  "dependencies": {
+    "styled-components": "^5.2.1"
+  }
 }
