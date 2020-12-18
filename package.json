@@ -4,7 +4,9 @@
   "description": "pet adoption site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
   "keywords": [
     "pet",
@@ -19,6 +21,13 @@
   },
   "homepage": "https://github.com/councit/react-adoption#readme",
   "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "parcel-bundler": "^1.12.4"
   }
 }
