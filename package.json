@@ -1,0 +1,21 @@
+{
+  "name": "react-adoption",
+  "version": "1.0.0",
+  "description": "pet adoption site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pet",
+    "adopt",
+    "react",
+    "intro"
+  ],
+  "author": "Taylor Council",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/councit/react-adoption/issues"
+  },
+  "homepage": "https://github.com/councit/react-adoption#readme"
+}
